@@ -4,7 +4,8 @@
   "description": "Node.js codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the RealWorld spec and API.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv/config src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/marcusmonteirodesouza/node-js-microservices-realworld-example-app-users-service/issues"
   },
-  "homepage": "https://github.com/marcusmonteirodesouza/node-js-microservices-realworld-example-app-users-service#readme"
+  "homepage": "https://github.com/marcusmonteirodesouza/node-js-microservices-realworld-example-app-users-service#readme",
+  "dependencies": {
+    "celebrate": "^15.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
 }
