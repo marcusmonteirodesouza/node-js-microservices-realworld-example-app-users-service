@@ -1,0 +1,20 @@
+{
+  "name": "js-microservices-realworld-example-app-users-service",
+  "version": "1.0.0",
+  "description": "Node.js codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the RealWorld spec and API.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusmonteirodesouza/node-js-microservices-realworld-example-app-users-service.git"
+  },
+  "keywords": [],
+  "author": "Marcus Vinicius Monteiro de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusmonteirodesouza/node-js-microservices-realworld-example-app-users-service/issues"
+  },
+  "homepage": "https://github.com/marcusmonteirodesouza/node-js-microservices-realworld-example-app-users-service#readme"
+}
